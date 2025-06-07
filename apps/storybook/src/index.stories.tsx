@@ -7,4 +7,4 @@ export default {
 
 export const Local = () => <Foo />;
 
-export const Monorepo = () => < />;
+export const Monorepo = () => <></>;
