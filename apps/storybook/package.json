@@ -3,7 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "dependencies": {
-    "@nighttrax/components": "workspace:*",
     "react": "~19.1.0",
     "react-dom": "~19.1.0"
   },

@@ -1,5 +1,5 @@
 {
-  "name": "@nighttrax/components",
+  "name": "@rei/components",
   "version": "1.0.0",
   "scripts": {
     "build": "pnpm run clean && pnpm run compile",
@@ -10,9 +10,7 @@
   "peerDependencies": {
     "react": "~19.1.0"
   },
-  "dependencies": {
-    "@nighttrax/foo": "workspace:*"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@types/react": "~19.1.0",
     "react": "~19.1.0",

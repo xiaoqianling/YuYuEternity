@@ -15,13 +15,17 @@
   },
   "devDependencies": {
     "@eslint/js": "~9.27.0",
-    "doctoc": "~2.2.0",
+    "doctoc": "~2.2.1",
     "eslint": "~9.27.0",
-    "eslint-plugin-prettier": "~5.4.0",
-    "eslint-plugin-react": "~7.37.4",
+    "eslint-plugin-prettier": "~5.4.1",
+    "eslint-plugin-react": "~7.37.5",
     "globals": "~16.1.0",
     "prettier": "~3.5.3",
-    "typescript": "~5.8.0",
-    "typescript-eslint": "~8.32.0"
+    "typescript": "~5.8.3",
+    "typescript-eslint": "~8.32.1",
+    "@changesets/cli": "~2.29.4",
+    "@changesets/parse": "~0.4.1",
+    "@changesets/types": "^6.1.0",
+    "@changesets/write": "^0.4.0"
   }
 }

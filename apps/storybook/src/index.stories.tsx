@@ -1,4 +1,3 @@
-import { Button } from "@nighttrax/components/button";
 import React from "react";
 import { Foo } from "./components/foo";
 
@@ -8,4 +7,4 @@ export default {
 
 export const Local = () => <Foo />;
 
-export const Monorepo = () => <Button />;
+export const Monorepo = () => < />;
