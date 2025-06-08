@@ -1,9 +1,10 @@
 {
   "name": "learn-redux",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "scripts": {
-    "test": "echo \"❌learn-redux Error: no test specified\""
+    "test": "echo \"❌learn-redux Error: no test specified\"",
+    "dev": "vite"
   },
   "author": "",
   "license": "ISC",

@@ -1,0 +1,1 @@
+用基于Redux的createApi创建的接口，它们独立于Redux的store，并且可以在没有store的情况下使用。

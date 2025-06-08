@@ -33,4 +33,4 @@ export const userApi = createApi({
 export const { useGetUserQuery, useAddUserMutation } = userApi;
 
 // Hooks state
-const { data, isError, isLoading, error, currentData } = useGetUserQuery(1);
+// const { data, isError, isLoading, error, currentData } = useGetUserQuery(1);
