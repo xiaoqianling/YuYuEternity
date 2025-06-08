@@ -1,0 +1,3 @@
+echo 'post-commit hook trigger'
+
+npx ts-node .husky/scripts/index.ts

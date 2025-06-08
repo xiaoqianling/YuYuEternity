@@ -3,8 +3,9 @@
 
   "compilerOptions": {
     "baseUrl": ".",
+    "types": ["node"],
     "paths": {
-      "@rei/components/*": ["packages/components/src/*"],
+      "@rei/components/*": ["packages/components/src/*"]
     },
     "noEmit": true
   }

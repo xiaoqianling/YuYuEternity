@@ -1,7 +1,7 @@
 {
   "name": "storybook-example",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "dependencies": {
     "react": "~19.1.0",
     "react-dom": "~19.1.0"

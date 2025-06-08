@@ -4,14 +4,16 @@
   "private": true,
   "workspaces": [
     "packages/*",
-    "apps/*"
+    "apps/*",
+    "learn/*"
   ],
   "scripts": {
     "docs": "doctoc --title '**Table of content**' README.md",
     "clean": "pnpm run -r clean",
     "build": "pnpm run -r build",
     "test": "pnpm run -r test",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@eslint/js": "~9.27.0",
@@ -26,6 +28,8 @@
     "@changesets/cli": "~2.29.4",
     "@changesets/parse": "~0.4.1",
     "@changesets/types": "^6.1.0",
-    "@changesets/write": "^0.4.0"
+    "@changesets/write": "^0.4.0",
+    "husky": "^9.1.7",
+    "@types/node": "^22.15.30"
   }
 }

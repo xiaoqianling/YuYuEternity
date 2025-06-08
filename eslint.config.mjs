@@ -19,6 +19,9 @@ export default tsEslint.config(
     extends: [js.configs.recommended, ...tsEslint.configs.recommended],
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
     languageOptions: { globals: globals.node },
+    rules: {
+      "@typescript-eslint/no-unused-vars": "off",
+    },
   },
 
   {
@@ -35,5 +38,5 @@ export default tsEslint.config(
     },
   },
 
-  eslintPluginPrettierRecommended
+  eslintPluginPrettierRecommended,
 );
