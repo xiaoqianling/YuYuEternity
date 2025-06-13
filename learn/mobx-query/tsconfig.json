@@ -19,8 +19,11 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@/*": ["learn/redux/src/*"]
-    }
+      "@/*": ["learn/mobx-query/src/*"]
+    },
+    // 允许装饰器语法
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
   },
   "include": ["src"],
   // 依赖关系，影响构建性能

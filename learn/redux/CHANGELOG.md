@@ -1,5 +1,11 @@
 # learn-redux
 
+## 1.0.4
+
+### Patch Changes
+
+- feat: create mobx+react_query demo
+
 ## 1.0.3
 
 ### Patch Changes

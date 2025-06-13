@@ -1,0 +1,28 @@
+{
+  "name": "mobx-query",
+  "version": "1.0.1",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "dev": "vite"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.10",
+    "axios": "^1.9.0",
+    "mobx": "^6.13.7",
+    "mobx-react-lite": "^4.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-query": "^3.39.3",
+    "tailwindcss": "^4.1.10"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.5.2",
+    "vite": "^6.3.5"
+  }
+}

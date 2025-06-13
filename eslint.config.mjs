@@ -17,7 +17,7 @@ export default tsEslint.config(
 
   {
     extends: [js.configs.recommended, ...tsEslint.configs.recommended],
-    files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
+    files: ["**/*.{js,mjs,cjs,ts,jsx,tsx,mts}"],
     languageOptions: { globals: globals.node },
     rules: {
       "@typescript-eslint/no-unused-vars": "off",
